@@ -1,0 +1,220 @@
+
+.container-fluid
+{ padding:60px 50px
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+      color:#2ec274 !important;
+  }
+img{
+	vertical-align: middle;
+	height: 265px;
+}
+
+.navbar-nav li a
+{
+	text-transform:uppercase;
+	font-size:12px;
+	color:#fff !important;
+}
+.navbar-default {
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
+	background-color:transparent !important;
+	border:hidden !important;
+}
+li.active
+{
+	color:#f4511e !important;
+}
+/*{
+margin:0 !important;
+padding:0 !important;
+} */
+
+.logo-small
+{
+font-size:10px !important;
+
+}
+.logo {
+  float: left;
+ }
+ .logo img{
+
+  height:55px !important;
+  width:172px !important;
+ }
+#head{
+	font-size: 45px !important;
+	color:#fff;
+	padding-top: 192px;
+}
+#par{
+	padding-bottom: 22px;
+	font-size: 21px !important;
+	color:lightgrey;
+}
+.learn{
+	background-color:transparent;
+	border:1px solid #2ec274;
+	color:#2ec274;
+	border-radius:20px;
+	width:150px !important;
+}
+.bgtop{
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../Images/Hero%20Image.png) center;
+	height:947px;
+}
+.bgbott{
+	background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(../Images/Background.jpg) center;
+	height:auto;
+	background-repeat: no-repeat;
+    background-size: cover;
+	height:600px;
+}
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.layer {
+    background-color: ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.layer1 {
+    background-color: ;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+p{
+	font-size: 0.9em;
+
+	color:#fff;
+}
+.para{
+	font-family: Open Sans light;
+    font-size: 18px;
+	color: #333;
+}
+.para1{
+	font-size: 18px;
+
+	color:#fff;
+}
+.white{
+	color:#fff;
+}
+.box{
+	    padding: 70px;
+}
+.tabs{
+	padding:30px;
+}
+.box1{
+	padding-top:57px;
+}
+.clear{
+	clear:both;
+}
+.box3{
+	background-color:#F2F2F2;
+	height:300px;
+	padding:45px;
+}
+.btns{
+	outline: none !important;
+	background:transparent;
+	border:1px solid #2ec274;
+	color:#2ec274 !important;
+	border-radius:15px;
+	font-size:11px !important;
+	padding:10px !important;
+	height:38px !important;
+	width: 185px;
+	margin:10px;
+}
+.foot{
+	list-style:none;
+	padding-top:10px;
+	height:30px;
+	display:block;
+}
+.foot li{
+	float:left;
+	
+	width:8%;
+}
+.footer{
+	background-color:#CCC;
+}
+#home{
+	color:#2ec274 !important;
+}
+
+
+div.mytab {
+    overflow: hidden;
+	
+}
+div.mytab1 {
+    overflow: hidden;
+
+}
+div.mytab2 {
+    overflow: hidden;
+
+}
+div.tab {
+    overflow: hidden;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 15px;
+	background:#CCC;
+}
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #2ec274;
+}
+div.mytab1 button:hover {
+    background-color: grey !important;
+}
+/* Create an active/current tablink class */
+div.mytab1 button.active {
+    background-color: grey !important;
+}
+div.tab button.active {
+    background-color: #2ec274;
+}
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+.tabtn
+{
+	height: 52px;
+    width: 210px;
+	color:#fff;
+	border-radius:2px;
+	margin-left:10px;
+}
+.tabtn1
+{
+	height:52px;
+	width:180px;
+	color:#fff;
+	border-radius:2px;
+	margin-left:10px;
+}
